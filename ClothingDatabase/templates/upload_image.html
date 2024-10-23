@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mt-5" id="upload_form">
+    <h2 class="mb-4">Upload Image</h2>
+    <form action="{{ url_for('upload_image') }}" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="imageFile" class="form-label">Choose Image</label>
+            <input class="form-control" type="file" id="imageFile" name="image_file" accept="image/*" required>
+        </div>
+        <div class="mb-3">
+            <label for="clothingName" class="form-label">Clothing Name</label>
+            <input type="text" class="form-control" id="clothingName" name="clothing_name">
+        </div>
+        <div class="mb-3">
+            <label for="clothingSize" class="form-label">Clothing Size</label>
+            <input type="number" class="form-control" id="clothingSize" name="clothing_size">
+        </div>
+        <div class="mb-3">
+            <label for="clothingOwner" class="form-label">Clothing Owner</label>
+            <input type="text" class="form-control" id="clothingOwner" name="clothing_owner">
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+.card-head {
+    height: 400px;
+    /* Fixed height for the image container */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Align items to the top */
+    overflow: hidden;
+    /* Hide overflow to maintain aspect ratio */
+    border-radius: 15px;
+    /* Round the top corners of the container */
+}
+
+.card-head img {
+    height: 100%;
+    /* Make the image take up the full height of the container */
+    width: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Cover the container while maintaining aspect ratio */
+    padding: 10px;
+    /* Adjust this value as needed */
+    border-radius: 15px;
+    /* Round the top corners of the image */
+}
+
+
+#upload_form {
+    width: 30%;
+}
