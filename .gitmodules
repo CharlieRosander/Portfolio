@@ -1,0 +1,12 @@
+[submodule "workhub"]
+	path = workhub
+	url = https://github.com/CharlieRosander/WorkHub
+[submodule "ClassificationModelTrainer"]
+	path = ClassificationModelTrainer
+	url = https://github.com/CharlieRosander/ClassificationModelTrainer
+[submodule "ClothingDatabase"]
+	path = ClothingDatabase
+	url = https://github.com/CharlieRosander/ClothingDatabase
+[submodule "GroceryList"]
+	path = GroceryList
+	url = https://github.com/CharlieRosander/GroceryList
