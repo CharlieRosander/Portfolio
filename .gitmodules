@@ -10,3 +10,9 @@
 [submodule "GroceryList"]
 	path = GroceryList
 	url = https://github.com/CharlieRosander/GroceryList
+[submodule "Exam_DL"]
+	path = Exam_DL
+	url = https://github.com/CharlieRosander/Exam-DL
+[submodule "Exam_ML"]
+	path = Exam_ML
+	url = https://github.com/CharlieRosander/ML_Exam
