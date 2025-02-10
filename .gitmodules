@@ -16,3 +16,6 @@
 [submodule "Exam_ML"]
 	path = Exam_ML
 	url = https://github.com/CharlieRosander/ML_Exam
+[submodule "cv-buddy"]
+	path = cv-buddy
+	url = https://github.com/CharlieRosander/cv-buddy
