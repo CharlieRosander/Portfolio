@@ -7,9 +7,6 @@
 [submodule "ClothingDatabase"]
 	path = ClothingDatabase
 	url = https://github.com/CharlieRosander/ClothingDatabase
-[submodule "GroceryList"]
-	path = GroceryList
-	url = https://github.com/CharlieRosander/GroceryList
 [submodule "Exam_DL"]
 	path = Exam_DL
 	url = https://github.com/CharlieRosander/Exam-DL
@@ -19,3 +16,6 @@
 [submodule "cv-buddy"]
 	path = cv-buddy
 	url = https://github.com/CharlieRosander/cv-buddy
+[submodule "GroceryListHelper"]
+	path = GroceryListHelper
+	url = https://github.com/CharlieRosander/GroceryListHelper
